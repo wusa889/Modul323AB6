@@ -1,7 +1,7 @@
 const hh = require("hyperscript-helpers");
-const { h } = require("virtual-dom");
-const { MSGS } = require("./Update");
-const { div, button } = hh(h);
+const {h} = require("virtual-dom");
+const {MSGS} = require("./Update");
+const {div, button} = hh(h);
 
 function view(dispatch, model) {
     const btnStyle = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded";
